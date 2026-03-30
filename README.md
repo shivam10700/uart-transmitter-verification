@@ -1,13 +1,13 @@
-# 🚀 UART Transmitter Design & Verification (SystemVerilog)
+# UART Transmitter Design & Verification (SystemVerilog)
 
-## 📌 Overview
+##  Overview
 This project implements a **UART (Universal Asynchronous Receiver Transmitter) Transmitter** using SystemVerilog and verifies its functionality through simulation and waveform analysis.
 
 The design follows a **Finite State Machine (FSM)** approach and supports standard UART communication format.
 
 ---
 
-## ⚙️ Features
+##  Features
 - 8-bit data transmission (LSB first)
 - Start and Stop bit implementation
 - Parameterized baud rate
@@ -16,7 +16,7 @@ The design follows a **Finite State Machine (FSM)** approach and supports standa
 
 ---
 
-## 🧠 UART Frame Format
+##  UART Frame Format
 
 | Field       | Bits | Description              |
 |------------|------|--------------------------|
@@ -27,7 +27,7 @@ The design follows a **Finite State Machine (FSM)** approach and supports standa
 
 ---
 
-## 🏗️ Design Architecture
+## Design Architecture
 
 The transmitter is implemented using a 4-state FSM:
 
